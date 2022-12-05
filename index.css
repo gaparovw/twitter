@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 255);
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    
+}
+.top {
+    position: fixed;
+    width: 70%;
+    background-color: rgb(70, 117, 219);
+}
+
+.navbar {
+    width: 100%;
+    opacity: 0.9;
+}
+
+.bi {
+    font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 70%;
+    background-color: rgb(15, 14, 15);
+}
+
+.right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    
+}
+
+.right-main {
+    width: 100%;
+    height: 70%;
+}
+
+img {
+    border-radius: 50px;
+}
+.cart {
+    padding: 10px;
+    border: 1px solid rgb(32, 30, 30);
+}
+
+.cart-top {
+    display: flex;
+}
+
+.cart-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.name-email {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.name-email > p {
+    margin-left: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.com {
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+.add-cont {
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+    background-color: rgb(248, 246, 246);
+    width: 200px;
+    border-radius: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgb(250, 249, 249);
+}
+
+.add-cont > h3 {
+    margin-left: 10px;
+}
+
+.add {
+    font-size: 50px;
+}
+
+.modal-add {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 50px rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.inputs {
+    height: 40px;
+    width: 60%;
+    padding-left: 20px;
+}
+
+.new-add {
+    border: none;
+    background-color:white;
+    box-shadow: 5px 5px 30px rgb(255, 254, 254);
+    height: 40px;
+    width: 50%;
+}
+
+.iks {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.img-cart {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ex {
+    margin-left: 10px;
+}
+
+.modal-edit {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 50px rgb(251, 249, 249);
+    position: absolute;
+    top: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.edit-btn {
+    border: none;
+    height: 40px;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgb(17, 16, 16);
+    box-shadow: 5px 5px 30px rgb(22, 22, 22);
+}
+
+.sear {
+    padding-left: 10px;
+    width: 25%;
+    height: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media all and (max-width: 1200px) {
+    .add-cont {
+        right: 100px;
+        bottom: 50px;
+    }
+}
